@@ -167,6 +167,8 @@ h2 {
     width: 300px;
     transform: rotate(0);
   }
+}
+@media (max-width: 991px) {
   #title {
     text-align: center;
   }
