@@ -1,0 +1,199 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+h1 {
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+#title {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    20deg,
+    rgba(0, 0, 0, 1) 40%,
+    rgb(106, 99, 246) 150%
+  );
+  color: white;
+}
+.container-fluid {
+  padding: 3% 15% 7%;
+  overflow: hidden;
+}
+.fixing {
+  width: 100%;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 4.5rem 0;
+}
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: light;
+}
+
+/* Download Buttons */
+
+.download-button {
+  margin: 15% 3% 5% 0;
+}
+
+/* Iphone Dog Image */
+
+.iphone-dog {
+  margin-top: 1rem;
+  width: 550px;
+  text-align: center;
+}
+
+/* Features */
+#features {
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 4.5%;
+}
+
+h3 {
+  font-weight: bold;
+}
+#features p {
+  color: #8f8f8f;
+}
+
+.icon {
+  color: rgb(63, 61, 84);
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: rgb(106, 99, 246);
+}
+/* My solution 
+#features {
+  text-align: center;
+  width: 70%;
+  margin: 0 auto;
+  font-size: 1rem;
+  color: #8f8f8f;
+}
+h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: black;
+}
+.fa-3x {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+.fa-3x:hover {
+  color: rgb(220, 65, 99);
+}
+
+#features p {
+  width: 80%;
+  margin: 0 auto;
+}
+
+#features .col-lg-4 {
+  padding: 10rem 2rem 0 2rem;
+} */
+
+/* testimonial */
+#testimonials {
+  padding: 7% 15%;
+  text-align: center;
+  background: linear-gradient(0deg, rgb(50, 50, 110) 10%, rgba(0, 0, 0, 1) 70%);
+  color: white;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  margin: auto;
+  text-align: center;
+  background: rgb(50, 50, 110);
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* Pricing Section */
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+.pricing-col {
+  padding: 3% 2%;
+}
+.card {
+  background-color: rgb(63, 61, 84);
+  color: white;
+  border-radius: 3%;
+}
+
+/* media query */
+@media (max-width: 800px) {
+  .iphone-dog {
+    width: 300px;
+    transform: rotate(0);
+  }
+  #title {
+    text-align: center;
+  }
+}
+
+/* footer section */
+
+#cta {
+  background-color: rgb(50, 50, 110);
+  color: white;
+  text-align: center;
+  padding: 7% 15%;
+}
+
+#cta h3 {
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+#footer {
+  color: #8f8f8f;
+  text-align: center;
+  padding: 7% 15%;
+}
+
+.xi {
+  margin: 20px 10px;
+  color: black;
+}

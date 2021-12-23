@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Mor Cüzdan</title>
+    <link rel="icon" href="images/favicon.ico" type="" />
+
+    <!-- Normalize -->
+    <link rel="stylesheet" href="css/normalize.css" />
+
+    <!-- Bootstap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+
+    <!-- Font Awsome -->
+    <script
+      src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"
+      data-auto-a11y="true"
+    ></script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Ubuntu:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CSS Style Sheet -->
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+
+  <body class="fixing">
+    <section id="title">
+      <div class="container-fluid">
+        <!-- Nav Bar -->
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <a class="navbar-brand" href="">Mor Cüzdan </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto" id="navbarToggleExternalContent">
+              <li class="nav-item px-3">
+                <a class="nav-link" href="#footer">İletişim</a>
+              </li>
+              <li class="nav-item px-3">
+                <a class="nav-link" href="#pricing">Fiyat</a>
+              </li>
+              <li class="nav-item px-3">
+                <a class="nav-link" href="#cta">İndir</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <!-- Title -->
+        <div class="row">
+          <div class="col-lg-6 col-sm-12">
+            <h1>Yeni nesil akıllı cüzdan ile yatırıma başla.</h1>
+            <button
+              type="button"
+              class="buton1 btn btn-light btn-lg download-button"
+            >
+              <i class="fab fa-apple"></i> Download
+            </button>
+            <button
+              type="button"
+              class="btn btn-outline-light btn-lg download-button"
+            >
+              <i class="fab fa-google-play"></i>
+              Download
+            </button>
+          </div>
+          <div class="col-lg-6 col-sm-12">
+            <img
+              class="iphone-dog"
+              src="/images/undraw_crypto_flowers_re_dyqo.svg"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features -->
+
+    <section id="features">
+      <div class="row">
+        <div class="feature-box col-lg-4 col-sm-12">
+          <i class="icon fas fa-check-circle fa-3x"></i>
+          <h3>Yeni Nesil Teknoloji</h3>
+          <p>Tamamen yeni bir deneyim. Kullanması çok kolay.</p>
+        </div>
+
+        <div class="feature-box col-lg-4 col-sm-12">
+          <i class="icon fas fa-bullseye fa-3x"></i>
+          <h3>Müşteri Odaklı</h3>
+          <p>Müşterilerimizin memnuniyeti için özel olarak geliştirildi.</p>
+        </div>
+
+        <div class="feature-box col-lg-4 col-sm-12">
+          <i class="icon fas fa-heart fa-3x"></i>
+          <h3>Size Özel Deneme</h3>
+          <p>7 günlük ücretsiz deneme ile uygulamayı keşfetmeye başlayın.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+
+    <section class="background" id="testimonials">
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <h2>Artık yatırımlarım için kullanacağım platformu biliyorum.</h2>
+            <img
+              class="testimonial-image"
+              src="images/FEDERLE-Michele-Profile-picture.jpeg"
+              alt="dog-profile"
+            />
+            <em>Serhat, İstanbul</em>
+          </div>
+          <div class="carousel-item">
+            <h2 class="testimonial-text">
+              Yenilikçi özellikleri ile kullanıcıya bambaşka bir yatırım ortamı
+              vaat ediyor.
+            </h2>
+            <img
+              class="testimonial-image"
+              src="images/lady-img.jpg"
+              alt="lady-profile"
+            />
+            <em>Selin, İzmir</em>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- Press -->
+
+    <section class="background" id="press">
+      <img class="press-logo" src="images/techcrunch.png" alt="tc-logo" />
+      <img class="press-logo" src="images/tnw.png" alt="tnw-logo" />
+      <img
+        class="press-logo"
+        src="images/bizinsider.png"
+        alt="biz-insider-logo"
+      />
+      <img class="press-logo" src="images/mashable.png" alt="mashable-logo" />
+    </section>
+
+    <!-- Pricing -->
+    <section id="pricing">
+      <h2>Bir plan seç ve kazanmaya başla</h2>
+      <p>Sizin için uygun fiyatlı tarifelerimize göz atın.</p>
+      <div class="row">
+        <div class="pricing-col col-lg-4 col-sm-6">
+          <div class="card">
+            <div class="card-header"><h3>Yıldız</h3></div>
+            <div class="card-body">
+              <h2>Ücretsiz</h2>
+              <p>7 günlük kullanım</p>
+              <p>Sınırlı erişim</p>
+              <p>Haber Bülteni</p>
+
+              <button
+                type="button"
+                class="btn btn-light btn-block btn-lg col-12"
+              >
+                Kayıt Ol
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="pricing-col col-lg-4 col-sm-6">
+          <div class="card">
+            <div class="card-header"><h3>Nova</h3></div>
+            <div class="card-body">
+              <h2>49₺ / ay</h2>
+              <p>Sınırsız Kullanım</p>
+              <p>Saatlik Durum Analizi</p>
+              <p>Haftalık Yatırım Danışmanı</p>
+              <button
+                class="btn btn-light btn-block btn-lg col-12"
+                type="button"
+              >
+                Kayıt Ol
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="pricing-col col-lg-4 col-sm-12">
+          <div class="card">
+            <div class="card-header"><h3>Galaksi</h3></div>
+            <div class="card-body">
+              <h2>99₺ / ay</h2>
+              <p>Öncelikli Üye</p>
+              <p>Gelişmiş yatırım algoritması</p>
+              <p>Anlık durum analizi</p>
+              <p>Sınırsız Yatırım Danışmanı</p>
+              <button
+                class="btn btn-light btn-block btn-lg col-12"
+                type="button"
+              >
+                Kayıt Ol
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Call to Action -->
+
+    <section id="cta">
+      <h3>İndir ve sen de hemen kazanmaya başla.</h3>
+      <button type="button" class="btn btn-dark btn-lg download-button">
+        <i class="fab fa-apple"></i> Hemen İndir
+      </button>
+      <button type="button" class="btn btn-light btn-lg download-button">
+        <i class="fab fa-google-play"></i>
+        Hemen İndir
+      </button>
+    </section>
+
+    <!-- Footer -->
+
+    <footer id="footer">
+      <div class="footer-icon">
+        <a href="https://www.linkedin.com/in/mehmet-serhat-ertas"
+          ><i href="" class="xi fab fa-twitter"></i
+        ></a>
+        <a href="https://www.linkedin.com/in/mehmet-serhat-ertas"
+          ><i class="xi fab fa-facebook-f"></i
+        ></a>
+        <a href="https://www.linkedin.com/in/mehmet-serhat-ertas"
+          ><i class="xi fab fa-instagram"></i
+        ></a>
+        <a href="https://www.linkedin.com/in/mehmet-serhat-ertas"
+          ><i class="xi fas fa-envelope"></i
+        ></a>
+      </div>
+      <p>© Copyright 2018 Mor Cüzdan</p>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
